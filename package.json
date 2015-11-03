@@ -1,0 +1,28 @@
+{
+  "name": "generator-lulutia-react",
+  "version": "0.0.1",
+  "description": "the bone to build a app",
+  "files": [
+    "generators/app"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "lulutia",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lulutia/generator-lulutia-react.git",
+    "web": "https://github.com/lulutia/generator-lulutia-react"
+    },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.0.5"
+  }
+}
