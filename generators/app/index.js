@@ -23,7 +23,11 @@ module.exports = yeoman.generators.Base.extend({
     this.prompt(prompts, function (props) {
       this.props = props;
       // To access props later use this.props.someOption;
-      done();
+      if(this.props.someOption===true){
+      done();}
+      else {
+        return ;
+      }
     }.bind(this));
   },
 

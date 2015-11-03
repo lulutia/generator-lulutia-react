@@ -1,6 +1,6 @@
 {
   "name": "generator-lulutia-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "the bone to build a app",
   "files": [
     "generators/app"
